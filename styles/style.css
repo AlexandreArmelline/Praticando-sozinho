@@ -1,0 +1,23 @@
+@import url(header.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fundo: linear-gradient(235.59deg, #F8E6C6 -14.47%, rgba(248, 230, 198, 0) 81.52%); 
+    --cor1: white;
+
+    --fonte-principal: 'Quicksand', sans-serif;
+}
+
+body{
+    background: var(--fundo);
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
