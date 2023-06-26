@@ -16,15 +16,17 @@
 .conteudo__card{
     background-color: var(--cor1);
     display: flex;
-    margin: 5%;   
+    margin: 5%; 
+    padding: 0.5rem 0;  
     width: 90%;
+    
+    align-items: center;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .conteudo__card__lado-esquerdo{
     display: flex;
     flex-direction: column;
-    justify-content: ;
     margin: 5%;
 
     
@@ -42,4 +44,23 @@
     display: flex;
     gap: 2rem;
     justify-content: center;
+}
+
+.conteudo__card__lado-direito{
+    margin-right: 1.12rem;
+}
+
+.conteudo__card__lado-direito__botao{
+    display: flex;
+    background-color: var(--cor3); 
+    border-bottom: 8px solid var(--cor4);
+    height: 3rem;
+    margin-top: 0.5rem;
+    justify-content: center;
+    align-items: center;    
+}
+
+.conteudo__card__lado-direito__linke{
+    text-decoration: none;
+    color: var(--cor1);
 }
