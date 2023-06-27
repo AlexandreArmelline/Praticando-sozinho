@@ -64,3 +64,17 @@
     text-decoration: none;
     color: var(--cor1);
 }
+
+.conteudo__texto{
+    text-align: center;
+}
+
+.conteudo__carrosel{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.18rem;
+}
+
+.conteudo__carrosel__imagem{
+    width: auto;
+}
