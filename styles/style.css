@@ -1,11 +1,11 @@
 @import url(reset.css);
 @import url(header.css);
 @import url(conteudo.css);
-
+@import url(rodape.css);
 
 
 :root{
-    --fundo: linear-gradient(235.59deg, #F8E6C6 -14.47%, rgba(248, 230, 198, 0) 81.52%); 
+    --fundo: linear-gradient(235.59deg, #F8E6C6 -14.47%, #e5e4e47e 80%); 
     --cor1: white;
     --cor2: #FFD791;
     --cor3: #7BD651;
@@ -17,11 +17,8 @@
 body{
     background: var(--fundo);
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
     font-family: var(--fonte-principal);
     font-weight: 400;
     font-size: 16px; 
 }
-
-
-
